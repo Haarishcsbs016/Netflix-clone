@@ -6,7 +6,7 @@ const compression = require('compression');
 const cookieParser = require('cookie-parser');
 const rateLimit = require('express-rate-limit');
 require('dotenv').config();
-
+indexedDB.cmponst fs = require('fs');
 const authRoutes = require('./routes/auth.routes');
 const contentRoutes = require('./routes/content.routes');
 const userRoutes = require('./routes/user.routes');
